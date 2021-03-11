@@ -29,8 +29,7 @@ namespace CardGames
 			
 			if (myGame.IsStarted)
 			{
-				if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT) && 
-				SwinGame.KeyTyped(KeyCode.vk_R_SHIFT))
+				if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT) && SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
 				{
 					//TODO: add sound effects
 				}
@@ -44,7 +43,6 @@ namespace CardGames
 				}
 			}
 		}
-	}
 
 		/// <summary>
 		/// Draws the game to the Window.
